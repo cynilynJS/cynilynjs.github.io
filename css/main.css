@@ -1,0 +1,88 @@
+.main-content {
+  position: relative;
+  text-align: center;
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  /* Set rules to fill background */
+  min-height: 1024px;
+  min-width: 100%;
+
+  /* Set up proportionate scaling */
+  width: auto;
+  height: 100%;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  filter: brightness(30%);
+}
+
+h1#login-text {
+  color: white;
+  font-size: 65px;
+}
+
+h1#clock {
+  color: white;
+  font-size: 100px;
+  margin: 5px;
+}
+
+#greeting {
+  color: white;
+  font-size: 35px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+#todo-input {
+  color: white;
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  font-size: 30px;
+  text-align: center;
+  outline: none;
+}
+
+#login-input {
+  color: white;
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid white;
+  font-size: 50px;
+  text-align: center;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(145, 145, 145);
+}
+
+li {
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 26px;
+  display: inline-block;
+  margin-right: 10px;
+}
